@@ -163,12 +163,12 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
 
 7. Buat file baru dengan nama <b>footer.php</b>
 
-  <footer>
-              <p>&copy; Roswanda Nuraini</p>
-          </footer>
-      </div>
-  </body>
-  </html>
+        <footer>
+                    <p>&copy; Roswanda Nuraini</p>
+                </footer>
+            </div>
+        </body>
+        </html>
 
 8. Buat file baru dengan nama <b>home.php</b>
 
