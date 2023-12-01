@@ -86,6 +86,10 @@
       </div>
       
       <?php require('footer.php'); ?>
+  
+# OUTPUT
+
+![image](https://github.com/roswanda11/lab9web/assets/115516632/2b65c5c3-697d-42e5-b5ee-bfa6579ddf12)
 
 # Pertanyaan dan Tugas
 
