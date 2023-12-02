@@ -95,6 +95,8 @@
 
 Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database, sehingga setiap halamannya memiliki template tampilan yang sama.
 
+![image](https://github.com/roswanda11/lab9web/assets/115516632/8509df86-7365-4eb0-85be-3f4b6ec7eee2)
+
 1. Jalankan XAMPP SERVER
 
 ![image](https://github.com/roswanda11/lab9web/assets/115516632/1a07b60a-d118-4ac0-8467-450ca0190886)
@@ -162,26 +164,29 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
                 </header>
                 <nav>
                     <a href="home.php">Home</a>
+                    <a href="about.php">About</a>
+                    <a href="kontak.php">Contact</a>
                     <a href="tambah.php">Tambah Barang</a>
                 </nav>
 
-7. Buat file baru dengan nama <b>footer.php</b>
+8. Buat file baru dengan nama <b>footer.php</b>
 
         <footer>
-                    <p>&copy; Roswanda Nuraini</p>
+                    <p>&copy; 2023, Roswanda Nuraini, Informatika, Universitas Pelita Bangsa</p>
                 </footer>
             </div>
         </body>
         </html>
 
-8. Buat file baru dengan nama <b>home.php</b>
+9. Buat file baru dengan nama <b>home.php</b>
 
         <?php require('header.php'); ?>
+        
         <div class="content">
             <h1>Data Barang</h1>
             <div class="main">
                 <table>
-               <tr>
+                <tr>
                     <th>Gambar</th>
                     <th>Nama Barang</th>
                     <th>Katagori</th>
@@ -213,9 +218,9 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
             </div>
         </div>
         
-        <?php require('footer.php'); ?>
+        <?php require('footer.php'); ?>        
 
-9. Lalu buatlah file baru dengan nama <b>tambah.php</b>
+10. Lalu buatlah file baru dengan nama <b>tambah.php</b>
       
         <?php
         error_reporting(E_ALL);
@@ -291,8 +296,10 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
         
         <?php require('footer.php'); ?>
 
-10. Buatlah file baru dengan nama <b>ubah.php</b>
+![image](https://github.com/roswanda11/lab9web/assets/115516632/8759ad9e-5f9c-45ee-928f-48a3b081cfc5)
 
+11. Buatlah file baru dengan nama <b>ubah.php</b>
+        
         <?php
         error_reporting(E_ALL);
         include_once 'koneksi.php';
@@ -384,8 +391,10 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
         </div>
         
         <?php require('footer.php'); ?>
-        
-11. Buatlah file dengan nama <b>hapus.php</b>  
+
+![image](https://github.com/roswanda11/lab9web/assets/115516632/1e736fba-a1e9-4e66-8f4a-7ee599da68cb)
+
+12. Buatlah file dengan nama <b>hapus.php</b>  
 
         <?php
         include_once 'koneksi.php';
@@ -395,7 +404,7 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
         header('location: home.php');
         ?>
 
-12. Lalu tambahkan css nya agar terlihat lebih menarik dengan nama <b>style.css</b>
+13. Lalu tambahkan css nya agar terlihat lebih menarik dengan nama <b>style.css</b>
 
         /* import google font */
         @import
@@ -432,7 +441,7 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
         /* navigasi */
         nav {
             display: block;
-            background-color: #1f5faa;
+            background-color: #fd788d;
         }
         nav a {
             padding: 15px 30px;
@@ -449,7 +458,7 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
         
         /* Content Panel */
         .content {
-            background-color: #caf0f8;
+            background-color: #ffc0cb;
             padding: 50px 20px;
             margin-bottom: 20px;
         }
@@ -466,7 +475,7 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
         /* footer */
         footer {
             clear:both;
-            background-color:#1d1d1d;
+            background-color:#fd788d;
             padding:20px;
             color:#eee;
             text-align: center;
@@ -485,7 +494,7 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
             padding: 7px 9px;
         }
         table th {
-            background:#1f5faa;
+            background:#fe6694;
             color:#DCDCDC;
             font-weight:bold;
             font-size:14px;
@@ -499,25 +508,3 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
             padding: 5px;
         }
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
